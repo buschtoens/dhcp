@@ -1,0 +1,16 @@
+{
+  "name": "dhcp",
+  "description": "Low level dhcp server",
+  "version": "0.0.0",
+  "author": "Jan Buschtöns <buschtoens@gmail.com>",
+  "contributors": [ 
+    { "name": "Jan Buschtöns", "email": "buschtoens@gmail.com", "url": "https://github.com/silvinci" }
+  ],
+  "license": "MIT",
+  "keywords": ["dhcp", "bootp", "udp", "network", "ip", "ethernet", "net", "udp"],
+  "repository": "git://github.com/silvinci/dhcp",
+  "main": "index",
+  "engines": { "node": "*" },
+  "scripts": { "prepublish": "npm prune", "test": "mocha -R spec -r should" },
+  "devDependencies": { "mocha": "~1.7.3", "should": "~1.2.1" }
+}
